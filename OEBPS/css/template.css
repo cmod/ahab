@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+
+/*  ------------------------------------------------------------------------
+                            
+                                      AHAB!    
+                                      
+                            A baseline Mobi template
+
+    :-...-----------::///++oooossssooo++//////////+//++////++oooosssyhhhhddd
+    /:----..```````......--//+oooooooo++++//-://+++++/....--:////+/++ssyhhhh
+    ///:-....````````.....-:::/++ooooooooo+.:s++/++o/```.-+oo/:-:://++++++oo
+    ////:--...``.``````.-::::-::/++oooooos--sso+//+/-``.-:shhyho:/+oooo+oooo
+    ///+////:-.`````````.--::::/:/+++oooo:.:ho++++:-```.:+ymmmmdyo+ossssssss
+    -://++++//-`````````````..-::--::////--os////:-```.-+ydmmmmddyo++oosssss
+    /////++///:-.``````````````..--......--s/-.-/:.``.-+ydmmmmdmdyh//++ossss
+    ++//++//////::-..``````````...-..```..:s-.:hy-``.:+yddmmmdmmhhh/++oossss
+    +++////+++++///:--...............``..-++-/hy-``-/+yhdmmmmmmdyho/+oosssss
+    +//++++///++////::::-::::///::::-..---o/ods.``-+syhddmmmmmdhy+/++++oooss
+    so+oosso++///:-``.-:://///++++/:::--.-oyd/```-+shdddmmdmmmhhy+oooo+++ssy
+    sssssyyyssoo+//:::://+++++++oo+/:---../o. `.:ohddhhhhhdmmdhy//+osossssss
+    yyyyyyyyyyysso+++/:://////////++/--:.``.--/shhddhshhdhdmdhhs:+oosyyyysss
+    yyyyyyyyyyyyyyssoo+++////++///++:////://oyhmmmmhoyddmhmmdhhoosyyyhyyyyyy
+    yyyyyyyyyhhhhhyyyyyssooo++/+o++/+/++oosyhdmmmmdyyddmmdmmdhhssyyyyysyyyyy
+    yyyyyyyyyyyyyyyyyyyyyssssssssso/:///+yyhddmmmmdhddmmmmNmddhyyyyyyyyyyyyy
+    hhyyyyyyyyyyyyyyyyyyyyyyyyysyyos//+osyhdmmmmmmdddmmNNNmddmyyysssyyyyyyyy
+    ddhhhhhhhhyyyyhhhhhhhhyhhhsyhy+://oyshdmNNNmmmdmmNNNNNmddd++ossssyyyyyyy
+    mmddddddddhhhhhhhhhhhhhhhyshyo::/ossydmNNmNNNmmmNNNNNmdddy+ooossssyyyyyy
+    mmmmmddddddddhhhyyyyyoo+++oo/:/+syysdmmdddmNNmmmmNNNmmdhho/+ooossoooo+oo
+    mmmmdddddddddhhhhysso++++o++:+osssydmdhdmmNNmmhddmmmdddyy///+/+////////+
+    mmmmmddddddddhyhyysysssss++/+o/syyhhhdddmmmmmyyhddddhhhs+//:::::-.:://+/
+    ddddddddddhhhyhhhyyyyyss++/+o+sssoohddddmmmmhsssyhhhyyso/////://++++++++
+    hhddddddddddhhhhsyhysosyh++o/ss++shhdddddddhssosssssosso--:://+++++//+oo
+    yyyyhhhhhhhhyyyyyyyooyhho+/ooo+yhddhyhdhhhyss/:/ososooo:.---::::://:::/+
+    ssoossyyyyyyyysysoysssdso+++/ssshhyhhhhooo++.``-///o+++-.`.--::::::::--:
+    yhyyyyyyyysssss+-+s+shy+oso:-+o+/+oosy+/+--/-`.-///+//+hs/:-::::/::----:
+    hhhhhhyyyyso++/.:::/oy/++/:.-:/o/-///:::`./-::`---/:----:oss-.......----
+    hhhhhhyyyyso+:.--.:/:::-/-:o--..-:-./..``:-++.+/.:/`-:````/yo...````.-..
+    hhhyyyysssoo//--.:://:-+-.//-.-..-..`.``-/ohdoso+//::s/:shsoh:.-+syyo-`.
+    ssssssooo+//++/:::-.-:....--..:/+////:-.`oyddhhyyy+yhhyysyyoyyhhhdddo//+
+    oo+++++//:-::::/-....---:/+oso+//:/++:::--ysssyhhhhhdhhhdddhdmmdmmmh+ooo
+    ooossoo+oooooso++oosso+++///++//+//+++osoooo+odmmNmmmmmmmmhhhddmmmmddhhh
+    ddmmmmmmddddhhysssssyhhsyhhdddhhhhhhhyhhhhyhhsydhyyhhhyyyhhdddmdmddddddh
+    ddddmmmmdmddhhyyyyhdhhhhhddmmmmdddhhyooosso+oshdhhsyydhddmmmmmmmmmmmdhhh
+    mNNNmmmmmmdmmmddddmmmdmddmmmmmmmmddhhhdhhdmmmNNNNmmmmmmmmmmmmmmmmmmmmddh
+
+
+    It's like 2003 all over again, 
+    and all our business cards say, "Webmaster"
+
+    Craig Mod - http://craigmod.com
+    (c) Everyone
+    
+    - - -
+    
+    Released under MIT LICENSE
+    Not that HTML + CSS really needs a license. 
+    But, still, use without worry.
+    (Is this even necessary?)
+                
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    
+    Permission is hereby granted, free of charge, to 
+    any person obtaining a copy of this software and 
+    associated documentation files (the "Software"), 
+    to deal in the Software without restriction, including 
+    without limitation the rights to use, copy, modify, 
+    merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom 
+    the Software is furnished to do so, subject to the 
+    following conditions:
+    
+    The above copyright notice and this permission notice 
+    shall be included in all copies or substantial portions 
+    of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF 
+    ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+    PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+    DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+    CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
+    IN THE SOFTWARE.
+
+    ------------------------------------------------------------------------ */    
+
+
+
+/*  ----------------------------------------------
+    FONTS — @font-face, presently only works in Kindle Fire
+    ---------------------------------------------- */
+    /*@font-face { 
+      font-family: '[[name]]';
+      src: url('../fonts/file.otf');
+      }*/
+      
+
+/*  ----------------------------------------------
+    GENERAL
+    ---------------------------------------------- */
+    body { font-family: '[[name]]', serif; }
+      body.centerall { text-align: center !important; }
+        body.centerall ul { list-style: none; margin: 0px !important; }
+        body.centerall li { margin-left: 0px !important; }
+
+    sup {  /* bug in webkit? */
+    	font-size: x-small;
+    	vertical-align: super;
+    	line-height: 1em;
+      }  
+    
+    sub {
+    	font-size: smaller;
+    	vertical-align: sub;
+      }
+    
+    blockquote {
+    	font-style: italic;
+    	text-align: left;
+    	text-indent: 0em;
+    	margin-top: 1em;
+    	margin-bottom: 1em;
+    	margin-right: 1em;
+    	margin-left: 1em;  /*  sometimes I find we need to 
+    	                       explicitly define all the margins independently ... */
+      }
+
+    p { text-indent: 2em; margin: 0px; }
+    p.no_indent { text-indent: 0em; }
+
+    a { color: #000; text-decoration: none; border-bottom: 2px solid #0000de; }
+      sup a, sub a { border: 0; } /* No underline for footnotes */
+
+
+
+/*  -----------------------------------------------
+    OPENING QUOTE
+    ----------------------------------------------- */
+    #quote p { text-indent: 0; margin: 0px; margin-top: 10em; text-align: center; }
+
+
+
+/*  ----------------------------------------------
+    IMAGES
+    ---------------------------------------------- */
+    img {
+    	max-width: 100%; /* kindlegen throws a warning */
+      }                /* on this but I find it actually */ 
+                       /* has material impact on the output */
+
+
+/*  ----------------------------------------------
+    TOC
+    ---------------------------------------------- */
+    #toc { text-align: center; }
+      #toc h1 { font-size: 2.4em; margin-top: 1em; margin-bottom: 1em; }
+      #toc p { text-indent: 0; margin-bottom: 0; margin-top: 0; font-size: 1.2em; }
+
+
+
+/*  ----------------------------------------------
+    LISTS
+    ---------------------------------------------- */
+    ul, ol { margin: 1em 0em 1em 0em; }
+      ol { list-style: decimal; list-style-position: outside; }
+        ol li { list-style: decimal; }
+
+
+
+/*  ----------------------------------------------
+    FIGURES
+    ---------------------------------------------- */
+    figure { margin-left: 0; padding-left: 0; margin-top: 1em; margin-bottom: 1em; }
+      figure img { border: 3px double #bbb; }
+    
+    figcaption { 
+      font-family: '[[name]]', helvetica, sans-serif, serif;
+      text-align: left; 
+      font-size: .6em; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+      line-height: 1.1em; 
+      }
+
+
+/*  ----------------------------------------------
+    HEADERS
+    ---------------------------------------------- */
+    h1, h2, h3, h4, h5 { 
+      font-family: Helvetica, sans-serif, serif; 
+      margin: 0; 
+      line-height: 1.1em; /* tightly spaced */
+      text-indent: 0;
+      margin-top: 1.5em;
+      margin-bottom: .5em;
+      }
+    
+    h1 { font-size: 2.4em; }
+    h2 { font-size : 1.6em; margin-top: 0; }
+    h3 { font-size: 1.2em; letter-spacing: 1px; text-transform: uppercase; }
+    h4 { font-size: 1.2em; }
+    h5 { font-size: 1.1em; }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid" content="gutenberg.org/files/2701/2701-h/2701-h.htm"/>
+		<meta name="dtb:depth" content="4"/>
+		<meta name="dtb:totalPageCount" content="0"/>
+		<meta name="dtb:maxPageNumber" content="0"/>
+	</head>
+	
+	<docTitle>
+		<text>Moby Dick</text>	
+  </docTitle>
+  
+  <docAuthor>
+    <text>Mr. Melville</text>
+  </docAuthor>
+  
+	<navMap>
+		<navPoint id="navpoint1" playOrder="1">
+			<navLabel><text>Hack the Cover</text></navLabel>
+			<content src="html/title.html"/>
+		</navPoint>
+
+		<navPoint id="navpoint2" playOrder="2">
+			<navLabel><text>Table of Contents</text></navLabel>
+			<content src="html/toc.html"/>
+		</navPoint>
+
+		<navPoint id="navpoint3" playOrder="3">
+			<navLabel><text>Ch. 1: Loomings</text></navLabel>
+			<content src="html/chapter.html"/>
+		</navPoint>
+
+		<navPoint id="navpoint4" playOrder="4">
+			<navLabel><text>About the Author</text></navLabel>
+			<content src="html/about.html"/>
+		</navPoint>
+	</navMap>
+</ncx>
