@@ -53,9 +53,7 @@ by Craig Mod - [http://craigmod.com](http://craigmod.com)
 
 ### Ahab! ###
 
-This template is simple. Really, *really* simple. 
-But you know what? I poked around quite a bit and didn't find any 
-other super-simple baseline .mobi templates. So here ya go. 
+Super-simple baseline .mobi templates. Here ya go. 
 
 It's also meant to be a bit geeky. It's for those of us who like to hand-code 
 websites. Who want to know what's going on under the hood. Who are obsessive
