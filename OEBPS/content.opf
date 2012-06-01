@@ -3,19 +3,15 @@
 	<metadata>
 		<meta name="generator" content="Our Hands"/>
 		<meta name="cover" content="cover-image"/>
-		<dc:title>Moby Dick</dc:title>
+		<dc:title>Moby Dick or The Whale</dc:title>
 		<dc:creator>Mr. Melville</dc:creator>
 		<dc:subject></dc:subject>
 		<dc:description></dc:description>
 		<dc:publisher>Ahab Press</dc:publisher>
 		<dc:date>1851-03-12</dc:date>
-		<dc:source></dc:source>
-		<dc:relation></dc:relation>
-		<dc:coverage></dc:coverage>
 		<dc:rights>Ahab Press 1851</dc:rights>
 		<dc:language>en-US</dc:language>
 		<dc:identifier id="bookid">gutenberg.org/files/2701/2701-h/2701-h.htm/</dc:identifier>
-		<dc:identifier>gutenberg.org/files/2701/2701-h/2701-h.htm</dc:identifier>
 	</metadata>
 	<manifest>
 		<item id="ncx"          href="toc.ncx" media-type="application/x-dtbncx+xml"/>
