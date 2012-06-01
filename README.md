@@ -64,7 +64,7 @@ possible.
 
 ### Mobi? ###
 
-Mobi is Kindle's ebook format. It's sort of like epub's step-brother. 
+Mobi is Kindle's ebook format. It's sort of like EPUB's step-brother. 
 If you have a properly produced .mobi file you can publish on the 
 [Kindle Direct Publishing](http://kdp.amazon.com) platform. 
 
@@ -169,7 +169,7 @@ Here's the full list of KF8 HTML and CSS support:
 
 Toc.ncx & content.opf are the two slightly alien files of this collection.
 
-OPF means "Open Page Format". From [Wikipedia](http://en.wikipedia.org/wiki/EPUB#Open_Packaging_Format_2.0.1):
+OPF means "Open Packaging Format". From [Wikipedia](http://en.wikipedia.org/wiki/EPUB#Open_Packaging_Format_2.0.1):
 
 > The OPF file, traditionally named content.opf houses the EPUB book's 
 > metadata, file manifest, and linear reading order. This file has a 
