@@ -1,40 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
-	<metadata>
-		<meta name="generator" content="Our Hands"/>
-		<meta name="cover" content="cover-image"/>
-		<dc:title>Moby Dick</dc:title>
-		<dc:creator>Mr. Melville</dc:creator>
-		<dc:subject></dc:subject>
-		<dc:description></dc:description>
-		<dc:publisher>Ahab Press</dc:publisher>
-		<dc:date>1851-03-12</dc:date>
-		<dc:rights>Ahab Press 1851</dc:rights>
-		<dc:language>en-US</dc:language>
-		<dc:identifier id="bookid">gutenberg.org/files/2701/2701-h/2701-h.htm/</dc:identifier>
-	</metadata>
+  <metadata>
+    <dc:title>Moby Dick</dc:title>
+    <dc:creator>Mr. Melville</dc:creator>
+    <dc:subject></dc:subject>
+    <dc:description></dc:description>
+    <dc:publisher>Ahab Press</dc:publisher>
+    <dc:date>1851-03-12</dc:date>
+    <dc:rights>Ahab Press 1851</dc:rights>
+    <dc:language>en-US</dc:language>
+    <dc:identifier id="bookid">gutenberg.org/files/2701/2701-h/2701-h.htm/</dc:identifier>
+    <meta name="generator" content="Our Hands"/>
+    <meta name="cover" content="cover-image"/>
+  </metadata>
 
-        <!-- This part is an unordered list of the files in the book -->
-        <manifest>
-		<item id="ncx"          href="toc.ncx"              media-type="application/x-dtbncx+xml"/>
-		<item id="css"          href="css/template.css"     media-type="text/css"/>
-		<item id="title"        href="html/title.html"      media-type="application/xhtml+xml"/>
-		<item id="toc"          href="html/toc.html"        media-type="application/xhtml+xml"/>
-		<item id="quote"        href="html/quote.html"      media-type="application/xhtml+xml"/>
-		<item id="chapter"      href="html/chapter.html"    media-type="application/xhtml+xml"/>
-		<item id="about"        href="html/about.html"      media-type="application/xhtml+xml"/>
-		<item id="closeimage"   href="html/closeimage.html" media-type="application/xhtml+xml"/>
-		<item id="cover-image"  href="images/cover.jpg"     media-type="image/jpeg"/>
-	</manifest>
+  <!-- This part is an unordered list of the files in the book -->
+  <manifest>
+    <item id="ncx"          href="toc.ncx"              media-type="application/x-dtbncx+xml"/>
 
-        <!-- This part actually defines the *reading order* of the HTML files inside the book -->
-	<spine toc="ncx">
-		<itemref idref="title"/>
-		<itemref idref="toc"/>
-		<itemref idref="quote"/>		
-		<itemref idref="chapter"/>
-		<itemref idref="about"/>
-		<itemref idref="closeimage"/>
-	</spine>
-	<guide> <reference type="toc" title="Table of Contents" href="html/toc.html"/> </guide>
+    <item id="css"          href="css/template.css"     media-type="text/css"/>
+
+    <item id="title"        href="html/title.html"      media-type="application/xhtml+xml"/>
+    <item id="toc"          href="html/toc.html"        media-type="application/xhtml+xml"/>
+    <item id="quote"        href="html/quote.html"      media-type="application/xhtml+xml"/>
+    <item id="chapter"      href="html/chapter.html"    media-type="application/xhtml+xml"/>
+    <item id="about"        href="html/about.html"      media-type="application/xhtml+xml"/>
+    <item id="closeimage"   href="html/closeimage.html" media-type="application/xhtml+xml"/>
+
+    <item id="author"       href="images/author.jpg"     media-type="image/jpeg"/>
+    <item id="closing_ill"  href="images/closing_illustration.png" media-type="image/png"/>
+    <item id="half"         href="images/half-title.png" media-type="image/png"/>
+    <item id="a_whale_dude" href="images/thewhale.jpg"   media-type="image/jpeg"/>
+
+    <!-- This @id MUST match the @content of the "cover" <meta> for the cover to work -->
+    <item id="cover-image"  href="images/cover.jpg"     media-type="image/jpeg"/>
+  </manifest>
+
+  <!-- This part actually defines the *reading order* of the HTML files inside the book -->
+  <spine toc="ncx">
+    <itemref idref="title"/>
+    <itemref idref="toc"/>
+    <itemref idref="quote"/>
+    <itemref idref="chapter"/>
+    <itemref idref="about"/>
+    <itemref idref="closeimage"/>
+  </spine>
+  <guide> 
+    <reference type="toc" title="Table of Contents" href="html/toc.html"/> 
+  </guide>
 </package>
