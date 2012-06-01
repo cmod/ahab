@@ -64,7 +64,7 @@ possible.
 
 ### Mobi? ###
 
-Mobi is Kindle's ebook format. It's sort of like epub's step-brother. 
+Mobi is Kindle's ebook format. It's sort of like EPUB's step-brother. 
 If you have a properly produced .mobi file you can publish on the 
 [Kindle Direct Publishing](http://kdp.amazon.com) platform. 
 
@@ -101,13 +101,14 @@ So this template is mainly about minimizing friction.
 - [Kindle Previewer](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261)
 - [Kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211)
 
-Yes — you're correct! You have to use a `COMMAND LINE PROGRAM` to make .mobi 
-files for Kindle Previewer to preview them. 
+If you prefer, you may use a `COMMAND LINE PROGRAM`, kindlegen, to make .mobi 
+files from your content.opf, but Kindle Previewer will do the same.
 
-At the risk of this file turning into a horribly complex tutorial, after you
-install Kindlegen, open your `Terminal` program (assuming OS X), type 
-`"kindlegen content.opf"` from inside the `ahab` directory and Kindle Previewer 
-should be able to open the content.mobi file it spits out. 
+After you install Kindle Previewer, open it and drag your carefully crafted `content.opf`
+it into the Kindle Previewer. It will then covert it to a .mobi file in the `Compiled-content.opf/` directory.
+Kindle Previewer then opens the content.mobi file it spits out. 
+
+You should read the Compilation Details just to see if it warns of something crazy.
 
 Kindle Previewer is pretty kludgy, but it gets the job done. It saves you from 
 trying to send .mobi files to seven different devices. And speeds up development / 
@@ -169,7 +170,7 @@ Here's the full list of KF8 HTML and CSS support:
 
 Toc.ncx & content.opf are the two slightly alien files of this collection.
 
-OPF means "Open Page Format". From [Wikipedia](http://en.wikipedia.org/wiki/EPUB#Open_Packaging_Format_2.0.1):
+OPF means "Open Packaging Format". From [Wikipedia](http://en.wikipedia.org/wiki/EPUB#Open_Packaging_Format_2.0.1):
 
 > The OPF file, traditionally named content.opf houses the EPUB book's 
 > metadata, file manifest, and linear reading order. This file has a 
