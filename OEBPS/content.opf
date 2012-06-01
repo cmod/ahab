@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="gutenberg.org/files/2701/2701-h/2701-h.htm" version="2.0">
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
 	<metadata>
 		<meta name="generator" content="Our Hands"/>
 		<meta name="cover" content="cover-image"/>
@@ -9,25 +9,25 @@
 		<dc:description></dc:description>
 		<dc:publisher>Ahab Press</dc:publisher>
 		<dc:date>1851-03-12</dc:date>
-		<dc:source></dc:source>
-		<dc:relation></dc:relation>
-		<dc:coverage></dc:coverage>
 		<dc:rights>Ahab Press 1851</dc:rights>
 		<dc:language>en-US</dc:language>
 		<dc:identifier id="bookid">gutenberg.org/files/2701/2701-h/2701-h.htm/</dc:identifier>
-		<dc:identifier>gutenberg.org/files/2701/2701-h/2701-h.htm</dc:identifier>
 	</metadata>
-	<manifest>
-		<item id="ncx"          href="toc.ncx" media-type="application/x-dtbncx+xml"/>
-		<item id="css"          href="css/template.css" media-type="text/css"/>
-		<item id="title"        href="html/title.html" media-type="application/xhtml+xml"/>
-		<item id="toc"          href="html/toc.html" media-type="text/css"/>
-		<item id="quote"        href="html/quote.html" media-type="application/xhtml+xml"/>
-		<item id="chapter"      href="html/chapter.html" media-type="application/xhtml+xml"/>
-		<item id="about"        href="html/about.html" media-type="application/xhtml+xml"/>
+
+        <!-- This part is an unordered list of the files in the book -->
+        <manifest>
+		<item id="ncx"          href="toc.ncx"              media-type="application/x-dtbncx+xml"/>
+		<item id="css"          href="css/template.css"     media-type="text/css"/>
+		<item id="title"        href="html/title.html"      media-type="application/xhtml+xml"/>
+		<item id="toc"          href="html/toc.html"        media-type="application/xhtml+xml"/>
+		<item id="quote"        href="html/quote.html"      media-type="application/xhtml+xml"/>
+		<item id="chapter"      href="html/chapter.html"    media-type="application/xhtml+xml"/>
+		<item id="about"        href="html/about.html"      media-type="application/xhtml+xml"/>
 		<item id="closeimage"   href="html/closeimage.html" media-type="application/xhtml+xml"/>
-		<item id="cover-image"  href="images/cover.jpg" media-type="image/jpg"/>
+		<item id="cover-image"  href="images/cover.jpg"     media-type="image/jpeg"/>
 	</manifest>
+
+        <!-- This part actually defines the *reading order* of the HTML files inside the book -->
 	<spine toc="ncx">
 		<itemref idref="title"/>
 		<itemref idref="toc"/>
