@@ -101,13 +101,14 @@ So this template is mainly about minimizing friction.
 - [Kindle Previewer](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765261)
 - [Kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000765211)
 
-Yes — you're correct! You have to use a `COMMAND LINE PROGRAM` to make .mobi 
-files for Kindle Previewer to preview them. 
+If you prefer, you may use a `COMMAND LINE PROGRAM`, kindlegen, to make .mobi 
+files from your content.opf, but Kindle Previewer will do the same.
 
-At the risk of this file turning into a horribly complex tutorial, after you
-install Kindlegen, open your `Terminal` program (assuming OS X), type 
-`"kindlegen content.opf"` from inside the `ahab` directory and Kindle Previewer 
-should be able to open the content.mobi file it spits out. 
+After you install Kindle Previewer, open it and drag your carefully crafted `content.opf`
+it into the Kindle Previewer. It will then covert it to a .mobi file in the `Compiled-content.opf/` directory.
+Kindle Previewer then opens the content.mobi file it spits out. 
+
+You should read the Compilation Details just to see if it warns of something crazy.
 
 Kindle Previewer is pretty kludgy, but it gets the job done. It saves you from 
 trying to send .mobi files to seven different devices. And speeds up development / 
